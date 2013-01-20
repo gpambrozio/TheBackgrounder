@@ -36,6 +36,8 @@
 		ECFA66B516ABD87F00EA2211 /* FeelinGood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECFA66B216ABD87F00EA2211 /* FeelinGood.mp3 */; };
 		ECFA66B616ABD87F00EA2211 /* IronBacon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECFA66B316ABD87F00EA2211 /* IronBacon.mp3 */; };
 		ECFA66B716ABD87F00EA2211 /* WhatYouWant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECFA66B416ABD87F00EA2211 /* WhatYouWant.mp3 */; };
+		ECFA66BA16ABE51100EA2211 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFA66B916ABE51100EA2211 /* CoreLocation.framework */; };
+		ECFA66BC16ABE51500EA2211 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFA66BB16ABE51500EA2211 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,8 @@
 		ECFA66B216ABD87F00EA2211 /* FeelinGood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FeelinGood.mp3; sourceTree = "<group>"; };
 		ECFA66B316ABD87F00EA2211 /* IronBacon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IronBacon.mp3; sourceTree = "<group>"; };
 		ECFA66B416ABD87F00EA2211 /* WhatYouWant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhatYouWant.mp3; sourceTree = "<group>"; };
+		ECFA66B916ABE51100EA2211 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ECFA66BB16ABE51500EA2211 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFA66BC16ABE51500EA2211 /* MapKit.framework in Frameworks */,
+				ECFA66BA16ABE51100EA2211 /* CoreLocation.framework in Frameworks */,
 				EC90EEED16ABC3810008EAF4 /* AudioToolbox.framework in Frameworks */,
 				EC90EEEE16ABC3810008EAF4 /* AVFoundation.framework in Frameworks */,
 				EC90EEEF16ABC3810008EAF4 /* CoreMedia.framework in Frameworks */,
@@ -116,6 +122,8 @@
 		EC67559D16ABAB7F008998E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECFA66BB16ABE51500EA2211 /* MapKit.framework */,
+				ECFA66B916ABE51100EA2211 /* CoreLocation.framework */,
 				EC90EEEA16ABC3810008EAF4 /* AudioToolbox.framework */,
 				EC90EEEB16ABC3810008EAF4 /* AVFoundation.framework */,
 				EC90EEEC16ABC3810008EAF4 /* CoreMedia.framework */,
