@@ -24,6 +24,12 @@
 		EC6755C316ABAB7F008998E4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6755C216ABAB7F008998E4 /* second@2x.png */; };
 		EC6755C616ABAB7F008998E4 /* TBFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6755C416ABAB7F008998E4 /* TBFirstViewController.xib */; };
 		EC6755C916ABAB7F008998E4 /* TBSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6755C716ABAB7F008998E4 /* TBSecondViewController.xib */; };
+		EC6755D616ABAFC3008998E4 /* TBThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6755D416ABAFC3008998E4 /* TBThirdViewController.m */; };
+		EC6755D716ABAFC3008998E4 /* TBThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6755D516ABAFC3008998E4 /* TBThirdViewController.xib */; };
+		EC6755DB16ABB0C1008998E4 /* TBFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6755D916ABB0C1008998E4 /* TBFourthViewController.m */; };
+		EC6755DC16ABB0C1008998E4 /* TBFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6755DA16ABB0C1008998E4 /* TBFourthViewController.xib */; };
+		EC6755E016ABB0D0008998E4 /* TBFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6755DE16ABB0D0008998E4 /* TBFifthViewController.m */; };
+		EC6755E116ABB0D0008998E4 /* TBFifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6755DF16ABB0D0008998E4 /* TBFifthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,15 @@
 		EC6755C216ABAB7F008998E4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		EC6755C516ABAB7F008998E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBFirstViewController.xib; sourceTree = "<group>"; };
 		EC6755C816ABAB7F008998E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBSecondViewController.xib; sourceTree = "<group>"; };
+		EC6755D316ABAFC3008998E4 /* TBThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBThirdViewController.h; sourceTree = "<group>"; };
+		EC6755D416ABAFC3008998E4 /* TBThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBThirdViewController.m; sourceTree = "<group>"; };
+		EC6755D516ABAFC3008998E4 /* TBThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBThirdViewController.xib; sourceTree = "<group>"; };
+		EC6755D816ABB0C1008998E4 /* TBFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFourthViewController.h; sourceTree = "<group>"; };
+		EC6755D916ABB0C1008998E4 /* TBFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFourthViewController.m; sourceTree = "<group>"; };
+		EC6755DA16ABB0C1008998E4 /* TBFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBFourthViewController.xib; sourceTree = "<group>"; };
+		EC6755DD16ABB0D0008998E4 /* TBFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFifthViewController.h; sourceTree = "<group>"; };
+		EC6755DE16ABB0D0008998E4 /* TBFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFifthViewController.m; sourceTree = "<group>"; };
+		EC6755DF16ABB0D0008998E4 /* TBFifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBFifthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +115,23 @@
 				EC6755AE16ABAB7F008998E4 /* TBAppDelegate.m */,
 				EC6755B616ABAB7F008998E4 /* TBFirstViewController.h */,
 				EC6755B716ABAB7F008998E4 /* TBFirstViewController.m */,
-				EC6755B916ABAB7F008998E4 /* first.png */,
-				EC6755BB16ABAB7F008998E4 /* first@2x.png */,
+				EC6755C416ABAB7F008998E4 /* TBFirstViewController.xib */,
 				EC6755BD16ABAB7F008998E4 /* TBSecondViewController.h */,
 				EC6755BE16ABAB7F008998E4 /* TBSecondViewController.m */,
+				EC6755C716ABAB7F008998E4 /* TBSecondViewController.xib */,
+				EC6755D316ABAFC3008998E4 /* TBThirdViewController.h */,
+				EC6755D416ABAFC3008998E4 /* TBThirdViewController.m */,
+				EC6755D516ABAFC3008998E4 /* TBThirdViewController.xib */,
+				EC6755D816ABB0C1008998E4 /* TBFourthViewController.h */,
+				EC6755D916ABB0C1008998E4 /* TBFourthViewController.m */,
+				EC6755DA16ABB0C1008998E4 /* TBFourthViewController.xib */,
+				EC6755DD16ABB0D0008998E4 /* TBFifthViewController.h */,
+				EC6755DE16ABB0D0008998E4 /* TBFifthViewController.m */,
+				EC6755DF16ABB0D0008998E4 /* TBFifthViewController.xib */,
+				EC6755B916ABAB7F008998E4 /* first.png */,
+				EC6755BB16ABAB7F008998E4 /* first@2x.png */,
 				EC6755C016ABAB7F008998E4 /* second.png */,
 				EC6755C216ABAB7F008998E4 /* second@2x.png */,
-				EC6755C416ABAB7F008998E4 /* TBFirstViewController.xib */,
-				EC6755C716ABAB7F008998E4 /* TBSecondViewController.xib */,
 				EC6755A516ABAB7F008998E4 /* Supporting Files */,
 			);
 			path = TheBackgrounder;
@@ -189,6 +213,9 @@
 				EC6755C316ABAB7F008998E4 /* second@2x.png in Resources */,
 				EC6755C616ABAB7F008998E4 /* TBFirstViewController.xib in Resources */,
 				EC6755C916ABAB7F008998E4 /* TBSecondViewController.xib in Resources */,
+				EC6755D716ABAFC3008998E4 /* TBThirdViewController.xib in Resources */,
+				EC6755DC16ABB0C1008998E4 /* TBFourthViewController.xib in Resources */,
+				EC6755E116ABB0D0008998E4 /* TBFifthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +230,9 @@
 				EC6755AF16ABAB7F008998E4 /* TBAppDelegate.m in Sources */,
 				EC6755B816ABAB7F008998E4 /* TBFirstViewController.m in Sources */,
 				EC6755BF16ABAB7F008998E4 /* TBSecondViewController.m in Sources */,
+				EC6755D616ABAFC3008998E4 /* TBThirdViewController.m in Sources */,
+				EC6755DB16ABB0C1008998E4 /* TBFourthViewController.m in Sources */,
+				EC6755E016ABB0D0008998E4 /* TBFifthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +357,7 @@
 				EC6755CE16ABAB7F008998E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

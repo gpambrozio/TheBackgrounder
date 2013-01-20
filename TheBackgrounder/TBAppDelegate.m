@@ -9,8 +9,10 @@
 #import "TBAppDelegate.h"
 
 #import "TBFirstViewController.h"
-
 #import "TBSecondViewController.h"
+#import "TBThirdViewController.h"
+#import "TBFourthViewController.h"
+#import "TBFifthViewController.h"
 
 @implementation TBAppDelegate
 
@@ -20,8 +22,11 @@
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[TBFirstViewController alloc] initWithNibName:@"TBFirstViewController" bundle:nil];
     UIViewController *viewController2 = [[TBSecondViewController alloc] initWithNibName:@"TBSecondViewController" bundle:nil];
+    UIViewController *viewController3 = [[TBThirdViewController alloc] initWithNibName:@"TBThirdViewController" bundle:nil];
+    UIViewController *viewController4 = [[TBFourthViewController alloc] initWithNibName:@"TBFourthViewController" bundle:nil];
+    UIViewController *viewController5 = [[TBFifthViewController alloc] initWithNibName:@"TBFifthViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[viewController1, viewController2, viewController3, viewController4, viewController5];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
