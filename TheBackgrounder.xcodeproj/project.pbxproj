@@ -30,6 +30,12 @@
 		EC6755DC16ABB0C1008998E4 /* TBFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6755DA16ABB0C1008998E4 /* TBFourthViewController.xib */; };
 		EC6755E016ABB0D0008998E4 /* TBFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6755DE16ABB0D0008998E4 /* TBFifthViewController.m */; };
 		EC6755E116ABB0D0008998E4 /* TBFifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6755DF16ABB0D0008998E4 /* TBFifthViewController.xib */; };
+		EC90EEED16ABC3810008EAF4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90EEEA16ABC3810008EAF4 /* AudioToolbox.framework */; };
+		EC90EEEE16ABC3810008EAF4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90EEEB16ABC3810008EAF4 /* AVFoundation.framework */; };
+		EC90EEEF16ABC3810008EAF4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC90EEEC16ABC3810008EAF4 /* CoreMedia.framework */; };
+		ECFA66B516ABD87F00EA2211 /* FeelinGood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECFA66B216ABD87F00EA2211 /* FeelinGood.mp3 */; };
+		ECFA66B616ABD87F00EA2211 /* IronBacon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECFA66B316ABD87F00EA2211 /* IronBacon.mp3 */; };
+		ECFA66B716ABD87F00EA2211 /* WhatYouWant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECFA66B416ABD87F00EA2211 /* WhatYouWant.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +71,12 @@
 		EC6755DD16ABB0D0008998E4 /* TBFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFifthViewController.h; sourceTree = "<group>"; };
 		EC6755DE16ABB0D0008998E4 /* TBFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFifthViewController.m; sourceTree = "<group>"; };
 		EC6755DF16ABB0D0008998E4 /* TBFifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBFifthViewController.xib; sourceTree = "<group>"; };
+		EC90EEEA16ABC3810008EAF4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC90EEEB16ABC3810008EAF4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC90EEEC16ABC3810008EAF4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ECFA66B216ABD87F00EA2211 /* FeelinGood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FeelinGood.mp3; sourceTree = "<group>"; };
+		ECFA66B316ABD87F00EA2211 /* IronBacon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IronBacon.mp3; sourceTree = "<group>"; };
+		ECFA66B416ABD87F00EA2211 /* WhatYouWant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhatYouWant.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC90EEED16ABC3810008EAF4 /* AudioToolbox.framework in Frameworks */,
+				EC90EEEE16ABC3810008EAF4 /* AVFoundation.framework in Frameworks */,
+				EC90EEEF16ABC3810008EAF4 /* CoreMedia.framework in Frameworks */,
 				EC67559F16ABAB7F008998E4 /* UIKit.framework in Frameworks */,
 				EC6755A116ABAB7F008998E4 /* Foundation.framework in Frameworks */,
 				EC6755A316ABAB7F008998E4 /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +116,9 @@
 		EC67559D16ABAB7F008998E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC90EEEA16ABC3810008EAF4 /* AudioToolbox.framework */,
+				EC90EEEB16ABC3810008EAF4 /* AVFoundation.framework */,
+				EC90EEEC16ABC3810008EAF4 /* CoreMedia.framework */,
 				EC67559E16ABAB7F008998E4 /* UIKit.framework */,
 				EC6755A016ABAB7F008998E4 /* Foundation.framework */,
 				EC6755A216ABAB7F008998E4 /* CoreGraphics.framework */,
@@ -140,6 +158,9 @@
 		EC6755A516ABAB7F008998E4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ECFA66B216ABD87F00EA2211 /* FeelinGood.mp3 */,
+				ECFA66B316ABD87F00EA2211 /* IronBacon.mp3 */,
+				ECFA66B416ABD87F00EA2211 /* WhatYouWant.mp3 */,
 				EC6755A616ABAB7F008998E4 /* TheBackgrounder-Info.plist */,
 				EC6755A716ABAB7F008998E4 /* InfoPlist.strings */,
 				EC6755AA16ABAB7F008998E4 /* main.m */,
@@ -216,6 +237,9 @@
 				EC6755D716ABAFC3008998E4 /* TBThirdViewController.xib in Resources */,
 				EC6755DC16ABB0C1008998E4 /* TBFourthViewController.xib in Resources */,
 				EC6755E116ABB0D0008998E4 /* TBFifthViewController.xib in Resources */,
+				ECFA66B516ABD87F00EA2211 /* FeelinGood.mp3 in Resources */,
+				ECFA66B616ABD87F00EA2211 /* IronBacon.mp3 in Resources */,
+				ECFA66B716ABD87F00EA2211 /* WhatYouWant.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TBFirstViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblMusicName;
+@property (strong, nonatomic) IBOutlet UILabel *lblMusicTime;
+@property (strong, nonatomic) IBOutlet UIButton *btnPlayPause;
 
+- (IBAction)didTapPlayPause:(id)sender;
 @end
