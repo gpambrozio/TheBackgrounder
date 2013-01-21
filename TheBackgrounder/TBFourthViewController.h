@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NewsstandKit/NewsstandKit.h>
 
-@interface TBFourthViewController : UIViewController
+@interface TBFourthViewController : UIViewController <NSURLConnectionDownloadDelegate, UITextFieldDelegate>
+
+@property (strong, nonatomic) IBOutlet UITextField *txtURL;
+@property (strong, nonatomic) IBOutlet UIProgressView *progress;
+
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
 
 @end

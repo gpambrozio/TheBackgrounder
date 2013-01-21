@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4063D416ACF86200132CFC /* NewsstandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4063D316ACF86200132CFC /* NewsstandKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EC67559F16ABAB7F008998E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC67559E16ABAB7F008998E4 /* UIKit.framework */; };
 		EC6755A116ABAB7F008998E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6755A016ABAB7F008998E4 /* Foundation.framework */; };
 		EC6755A316ABAB7F008998E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6755A216ABAB7F008998E4 /* CoreGraphics.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4063D316ACF86200132CFC /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = System/Library/Frameworks/NewsstandKit.framework; sourceTree = SDKROOT; };
 		EC67559A16ABAB7F008998E4 /* TheBackgrounder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBackgrounder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC67559E16ABAB7F008998E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC6755A016ABAB7F008998E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4063D416ACF86200132CFC /* NewsstandKit.framework in Frameworks */,
 				ECFA66BC16ABE51500EA2211 /* MapKit.framework in Frameworks */,
 				ECFA66BA16ABE51100EA2211 /* CoreLocation.framework in Frameworks */,
 				EC90EEED16ABC3810008EAF4 /* AudioToolbox.framework in Frameworks */,
@@ -122,6 +125,7 @@
 		EC67559D16ABAB7F008998E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC4063D316ACF86200132CFC /* NewsstandKit.framework */,
 				ECFA66BB16ABE51500EA2211 /* MapKit.framework */,
 				ECFA66B916ABE51100EA2211 /* CoreLocation.framework */,
 				EC90EEEA16ABC3810008EAF4 /* AudioToolbox.framework */,

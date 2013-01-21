@@ -28,7 +28,10 @@
 	<array>
 		<string>audio</string>
 		<string>location</string>
+		<string>newsstand-content</string>
 	</array>
+	<key>UINewsstandApp</key>
+	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
