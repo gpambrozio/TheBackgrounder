@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TBFifthViewController : UIViewController
+@interface TBFifthViewController : UIViewController<NSStreamDelegate>
+
+@property (strong, nonatomic) IBOutlet UITextField *txtIP;
+@property (strong, nonatomic) IBOutlet UITextField *txtPort;
+@property (strong, nonatomic) IBOutlet UITextView *txtReceivedData;
+
+- (IBAction)didTapConnect:(id)sender;
 
 @end

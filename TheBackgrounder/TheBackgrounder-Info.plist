@@ -28,6 +28,7 @@
 	<array>
 		<string>audio</string>
 		<string>location</string>
+		<string>voip</string>
 		<string>newsstand-content</string>
 	</array>
 	<key>UINewsstandApp</key>
