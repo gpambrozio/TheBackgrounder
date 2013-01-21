@@ -10,4 +10,9 @@
 
 @interface TBThirdViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *btnPlayPause;
+@property (strong, nonatomic) IBOutlet UITextView *txtResult;
+
+- (IBAction)didTapPlayPause:(id)sender;
+
 @end
